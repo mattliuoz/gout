@@ -7,4 +7,4 @@ Clean up(delete) local branches. To use it:
 
 ##newchrome.go
 Create new chrome window with new session. To use it:
-- 'newchrome www.google.com`
+- `newchrome www.google.com`
