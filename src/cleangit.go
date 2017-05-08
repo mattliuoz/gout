@@ -21,7 +21,7 @@ func main(){
 		cmdArgs = append(cmdArgs,os.Args[i])
 		if cmdOut, err = exec.Command(cmdName, cmdArgs...).Output(); err != nil {
 			fmt.Fprintln(os.Stderr, "There was an error while deleting branch:{"+os.Args[i]+"} ", err)
-			//os.Exit(1)
+			os.Exit(1)
 		}
 	sha := string(cmdOut)
 	firstSix := sha[:6]
