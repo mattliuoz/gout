@@ -10,3 +10,7 @@ Clean up(delete) local branches. To use it:
 
 Create new chrome window with new session. To use it:
 - `newchrome www.google.com`
+
+3. matabot
+
+Copyed source code from https://rsmitty.github.io/Slack-Bot/ just for starting the project. I will customize some of the code later on, this seem to be quite useful for work :lol
